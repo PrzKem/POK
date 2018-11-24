@@ -4,12 +4,12 @@
 int main()
 {
   int i,j,maksimum, wierszMaksimum;
-  int wiersze = 20, columny = 20;
-  int tablica[wiersze][columny];
+  int wiersze = 20, kolumny = 20;
+  int tablica[wiersze][kolumny];
 
   for(i=0;i<wiersze;i++)
   {
-    for(j=0;j<columny;j++)
+    for(j=0;j<kolumny;j++)
     {
       scanf("%d", &tablica[i][j]);
       if(i == 0 && j == 0)
@@ -27,7 +27,7 @@ int main()
 
   for(i=0;i<wiersze;i++)
   {
-    for(j=0;j<columny;j++)
+    for(j=0;j<kolumny;j++)
     {
       printf("%d\t",tablica[i][j]);
     }
