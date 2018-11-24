@@ -3,7 +3,7 @@
 
 int main()
 {
-  int i,j,maksimum, wierszMaksimum;
+  int i,j;
   const int wiersze = 20, columny = 10;
   int tablica[wiersze][columny];
   int suma[20]={0};
