@@ -1,4 +1,4 @@
-//zapis: wynik+=zmienna oznacza to samo co wynik=wynik+zmienna
+//zapis: wynik+=zmienna oznacza to samo co wynik=wynik+zmienna 
 
 #include <stdlib.h>
 #include <stdio.h>
