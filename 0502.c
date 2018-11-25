@@ -13,7 +13,7 @@ int main()
   N=strlen(napisOtrzymany);
   for(i=0;i<=N-1;i++)
   {
-    if(napis[i] != ' ')
+    if(napisOtrzymany[i] != ' ')
     {
       napisKoncowy[j] = napisOtrzymany[i];
       j++;
