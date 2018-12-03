@@ -53,10 +53,9 @@ int main()
     }
   }
 
-  for(i=0.0;i<N;i++)
+  for(i=0;i<N;i++)
   {
-    poz = i;
-    printf("Przedzial %d: %d\n",poz+1,ilosc[poz]);
+    printf("Przedzial %d: %d\n",i+1,ilosc[i]);
   }
   fclose(wp);
   system("PAUSE");
