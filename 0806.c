@@ -15,7 +15,7 @@ double potega(double  x, int p)
 
 int main()
 {
-  int p,i;
+  int p;
   double r;
   scanf("%d", &p);
   scanf("%lf", &r);
